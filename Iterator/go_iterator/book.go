@@ -1,4 +1,4 @@
-package golang
+package go_iterator
 
 type Book struct {
 	Name string

@@ -1,0 +1,6 @@
+go 1.18
+
+use (
+	./Adapter/go_adapter
+	./Iterator/go_iterator
+)
