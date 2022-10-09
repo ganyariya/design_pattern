@@ -25,6 +25,26 @@ A は I のインターフェースを実装し、 I を実装したメソッド
 ## UML
 
 ```mermaid
+classDiagram
+  class Main
+
+  class AppInterface {
+    +appMethod1()
+  }
+  <<interface>> AppInterface
+
+  class Adapter {
+    -ExternalLibrary extLibrary
+    +appMethod1()
+  }
+
+  class ExternalLibrary {
+    libraryMethod1()
+  }
+
+  Main --> AppInterface : Use
+  Adapter ..|> AppInterface
+  Adapter o--> ExternalLibrary
 ```
 
 ## メリット
@@ -34,4 +54,8 @@ A は I のインターフェースを実装し、 I を実装したメソッド
   - インターフェースがあるので既存のコードが壊れない
   - 新しい外部ライブラリを追加する場合は、新しい Adapter を用意すればいい
 - 修正箇所が Adapter 1 箇所に集まる
+- 1 外部ライブラリに対して 1 Adapter を用意すればいい
+  - アプリが利用する複数のファイル形式があったとする。
+  - PNG 画像ライブラリに対して PNG 画像アダプタを、エクセルライブラリに対してエクレルアダプタを... のように、外部コードに対してアダプタを用意すればいい
+  - それら複数アダプタは共通の AppInterface を実装しているので簡単に受け取れる
 
