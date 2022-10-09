@@ -1,0 +1,17 @@
+{
+    "name": "ganariya/php_factory_method",
+    "autoload": {
+        "psr-4": {
+            "Ganariya\\PhpFactoryMethod\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ganariya",
+            "email": "ganariya2525@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
