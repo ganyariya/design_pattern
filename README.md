@@ -15,4 +15,5 @@ Go もしくは PHP で実装しています。
 - 1: [Iterator](./Iterator/)
 - 2: [Adapter](./Adapter/)
 - 3: [TemplateMethod](./TemplateMethod/)
+- 4: [FactoryMethod](./FactoryMethod/)
 
