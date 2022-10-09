@@ -26,6 +26,36 @@ for を使用しないためインデックスなどを考慮しなくてよい�
 ## UML
 
 ```mermaid
+classDiagram
+    class CollectionInterface {
+      +getIterator() IteratorInterface
+    }
+    <<interface>> CollectionInterface
+
+    class IteratorInterface {
+      +HasNext() bool
+      +Next() any
+    }
+    <<interface>> IteratorInterface
+
+    class XCollection {
+      +[]x xArray
+      +getIterator() IteratorInterface
+    }
+
+    class XIterator {
+      -int index
+      -XCollection xCollection
+      +HasNext() bool
+      +Next() x
+    }
+
+    %% Realization
+    XCollection ..|> CollectionInterface
+    XIterator ..|> IteratorInterface
+
+    CollectionInterface --> IteratorInterface : Create
+    XCollection <--o XIterator
 ```
 
 ## メリット
