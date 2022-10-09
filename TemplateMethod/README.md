@@ -18,7 +18,51 @@
 
 ## UML
 
+Class Pattern (PHP など)
+
 ```mermaid
+classDiagram
+  class AbstractClass {
+    +method1()
+    +method2()
+    +method3()
+    +wireCallMethod()
+  }
+
+  class ConcreteClass {
+    +method1()
+    +method2()
+    +method3()
+  }
+
+  AbstractClass <|-- ConcreteClass
+```
+
+Go
+
+```mermaid
+classDiagram
+  class Interface {
+    +method1()
+    +method2()
+    +method3()
+  }
+  <<interface>> Interface
+
+  %% wireCallMethod = 呼び出し関数 interface が実装している method{1,2,3} をいい感じに呼び出す
+  class WireCallMethod {
+    +Interface[] interface
+    +wireCallMethod()
+  }
+
+  class ConcreteStruct {
+    +method1()
+    +method2()
+    +method3()
+  }
+
+  WireCallMethod o--> Interface
+  ConcreteStruct ..|> Interface
 ```
 
 ## メリット
