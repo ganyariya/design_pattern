@@ -5,4 +5,5 @@ use (
 	./Iterator/go_iterator
 	./TemplateMethod/go_template_method
 	./Singleton/go_singleton
+	./Prototype/go_prototype
 )
