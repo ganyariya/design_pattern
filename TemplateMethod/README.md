@@ -38,8 +38,6 @@ classDiagram
   AbstractClass <|-- ConcreteClass
 ```
 
-Go
-
 ```mermaid
 classDiagram
   class Interface {
