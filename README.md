@@ -16,4 +16,5 @@ Go もしくは PHP で実装しています。
 - 2: [Adapter](./Adapter/)
 - 3: [TemplateMethod](./TemplateMethod/)
 - 4: [FactoryMethod](./FactoryMethod/)
+- 5: [Singleton](./Singleton/)
 
