@@ -18,7 +18,7 @@
 
 ## UML
 
-Class Pattern (PHP など)
+##### Class Pattern (PHP など)
 
 ```mermaid
 classDiagram
@@ -37,6 +37,8 @@ classDiagram
 
   AbstractClass <|-- ConcreteClass
 ```
+
+##### Go Pattern
 
 ```mermaid
 classDiagram
