@@ -4,4 +4,5 @@ use (
 	./Adapter/go_adapter
 	./Iterator/go_iterator
 	./TemplateMethod/go_template_method
+	./Singleton/go_singleton
 )
