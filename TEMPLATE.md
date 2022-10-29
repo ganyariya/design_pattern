@@ -7,6 +7,8 @@
 
 ## UML
 
+https://mermaid-js.github.io/mermaid/#/classDiagram
+
 ```mermaid
 ```
 
