@@ -1,0 +1,15 @@
+{
+    "name": "ganariya/php_bridge",
+    "autoload": {
+        "psr-4": {
+            "Ganariya\\PhpBridge\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ganariya",
+            "email": "ganariya2525@gmail.com"
+        }
+    ],
+    "require": {}
+}
