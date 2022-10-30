@@ -14,8 +14,12 @@ Go もしくは PHP で実装しています。
 
 1. [Iterator](./Iterator/)
 2. [Adapter](./Adapter/)
-3. [TemplateMethod](./TemplateMethod/)
-4. [FactoryMethod](./FactoryMethod/)
+3. [Template Method](./TemplateMethod/)
+4. [Factory Method](./FactoryMethod/)
 5. [Singleton](./Singleton/)
 6. [Prototype](./Prototype/)
+7. [Builder](./Builder/)
+8. [Abstract Factory](./AbstractFactory/)
+9. [Bridge](./Bridge/)
+
 
