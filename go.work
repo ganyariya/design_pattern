@@ -7,4 +7,5 @@ use (
 	./Singleton/go_singleton
 	./Prototype/go_prototype
 	./Builder/go_builder
+	./Strategy/go_strategy
 )
