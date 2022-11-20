@@ -1,9 +1,9 @@
 
 # Abstract Factory
 
-https://refactoring.guru/ja/design-patterns/abstract-factory
-http://marupeke296.com/DP_AbstractFactory.html
-https://designpatternsphp.readthedocs.io/ja/latest/Creational/AbstractFactory/README.html
+- https://refactoring.guru/ja/design-patterns/abstract-factory
+- http://marupeke296.com/DP_AbstractFactory.html
+- https://designpatternsphp.readthedocs.io/ja/latest/Creational/AbstractFactory/README.html
 
 ## 概要
 

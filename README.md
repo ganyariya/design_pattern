@@ -8,6 +8,8 @@ Go もしくは PHP で実装しています。
   - 持っていた初版版をそのまま参考にしています（今は 3 版まで出ていますが、旧バージョンを利用しています）。
   - 説明のみ参考にし、独自実装に置き換えています。
 - [REFACTORING GURU](https://refactoring.guru/ja/design-patterns/catalog)
+- [デザインパターン習得編](http://marupeke296.com/DP_main.html)
+  - ゲームを題材としたデザインパターンの説明
 
 # Pattern
 

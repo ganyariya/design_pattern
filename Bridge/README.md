@@ -1,8 +1,8 @@
 
 # Bridge Pattern
 
-http://marupeke296.com/DP_Bridge.html
-https://refactoring.guru/ja/design-patterns/bridge/php/example#example-1
+- http://marupeke296.com/DP_Bridge.html
+- https://refactoring.guru/ja/design-patterns/bridge/php/example#example-1
 
 ## 概要
 
