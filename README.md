@@ -22,6 +22,7 @@ Go もしくは PHP で実装しています。
 7. [Builder](./Builder/)
 8. [Abstract Factory](./AbstractFactory/)
 9. [Bridge](./Bridge/)
+10. [Strategy](./Strategy/)
 
 # Category
 
@@ -58,7 +59,7 @@ Go もしくは PHP で実装しています。
 - [Memento]()
 - [Observer]()
 - [State]()
-- [Strategy]()
+- [Strategy](./Strategy/)
 - [TemplateMethod](./TemplateMethod/)
 - [Visitor]()
 
