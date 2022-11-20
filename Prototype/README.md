@@ -35,6 +35,10 @@ classDiagram
         +Register(string, prototype)
         +Get(string) PrototypeInterface
     }
+
+    ConcretePrototype ..|> PrototypeInterface
+    PrototypeRegistry --> PrototypeInterface : use
+    Client --> PrototypeInterface : use
 ```
 
 ## メリット
