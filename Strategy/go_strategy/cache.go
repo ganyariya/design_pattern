@@ -1,21 +1,21 @@
 package go_strategy
 
 // Context
-type Cache struct {
-	data     []int
-	strategy Strategy
+type Cache[T any] struct {
+	data     []T
+	strategy Strategy[T]
 }
 
-func (c *Cache) SetStrategy(s Strategy) {
+func (c *Cache[T]) SetStrategy(s Strategy[T]) {
 	c.strategy = s
 }
-func (c *Cache) Push(x int) {
+func (c *Cache[T]) Push(x T) {
 	c.data = append(c.data, x)
 }
-func (c *Cache) GetElement() int {
+func (c *Cache[T]) GetElement() T {
 	return c.strategy.apply(c)
 }
 
-func NewCache() *Cache {
-	return &Cache{data: []int{}, strategy: nil}
+func NewCache[T any]() *Cache[T] {
+	return &Cache[T]{data: []T{}, strategy: nil}
 }

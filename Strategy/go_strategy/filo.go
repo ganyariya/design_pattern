@@ -1,10 +1,10 @@
 package go_strategy
 
-type FILO struct{}
+type FILO[T any] struct{}
 
-func (f *FILO) apply(c *Cache) int {
+func (f *FILO[T]) apply(c *Cache[T]) T {
 	if len(c.data) == 0 {
-		return -1
+		return *new(T)
 	}
 	n := len(c.data)
 	x := c.data[n-1]
