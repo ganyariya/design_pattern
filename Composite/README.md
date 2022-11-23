@@ -3,6 +3,9 @@
 
 ![](https://refactoring.guru/images/patterns/content/composite/composite-2x.png?id=8847e6f8e2cb892ed2229faba83bd1b7)
 
+- https://refactoring.guru/ja/design-patterns/prototype
+- http://marupeke296.com/DP_Composite.html
+
 ## 概要
 
 容器 (Composite) と中身（Leaf）が同一視できる場合に利用できるデザインパターン。
