@@ -8,4 +8,5 @@ use (
 	./Prototype/go_prototype
 	./Builder/go_builder
 	./Strategy/go_strategy
+	./Composite/go-composite
 )
