@@ -23,6 +23,7 @@ Go もしくは PHP で実装しています。
 8. [Abstract Factory](./AbstractFactory/)
 9. [Bridge](./Bridge/)
 10. [Strategy](./Strategy/)
+11. [Composite](./Composite/)
 
 # Category
 
@@ -42,7 +43,7 @@ Go もしくは PHP で実装しています。
 
 - [Adapter](./Adapter/)
 - [Bridge](./Bridge/)
-- [Composite]()
+- [Composite](./Composite/)
 - [Decorator]()
 - [Facade]()
 - [Flyweight]()
