@@ -9,4 +9,5 @@ use (
 	./Builder/go_builder
 	./Strategy/go_strategy
 	./Composite/go-composite
+	./Decorator/go-decorator
 )
