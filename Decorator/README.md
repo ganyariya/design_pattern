@@ -4,6 +4,7 @@
 - https://refactoring.guru/ja/design-patterns/decorator/go/example
 - http://marupeke296.com/DP_Decorator.html
 - https://future-architect.github.io/articles/20221021a/
+  - 実際のケースで説明されていて分かりやすい
 
 ## 概要
 
