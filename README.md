@@ -24,6 +24,8 @@ Go もしくは PHP で実装しています。
 9. [Bridge](./Bridge/)
 10. [Strategy](./Strategy/)
 11. [Composite](./Composite/)
+12. [Decorator](./Decorator/)
+13. [Visitor](./Visitor/)
 
 # Category
 
@@ -44,7 +46,7 @@ Go もしくは PHP で実装しています。
 - [Adapter](./Adapter/)
 - [Bridge](./Bridge/)
 - [Composite](./Composite/)
-- [Decorator]()
+- [Decorator](./Decorator/)
 - [Facade]()
 - [Flyweight]()
 - [Proxy]()
@@ -62,5 +64,5 @@ Go もしくは PHP で実装しています。
 - [State]()
 - [Strategy](./Strategy/)
 - [TemplateMethod](./TemplateMethod/)
-- [Visitor]()
+- [Visitor](./Visitor/)
 

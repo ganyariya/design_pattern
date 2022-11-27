@@ -10,4 +10,5 @@ use (
 	./Strategy/go_strategy
 	./Composite/go-composite
 	./Decorator/go-decorator
+	./Visitor/go-visitor
 )
