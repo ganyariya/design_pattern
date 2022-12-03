@@ -3,6 +3,7 @@ go 1.18
 use (
 	./Adapter/go_adapter
 	./Builder/go_builder
+	./ChainOfResponsibility/go_chain_of_responsibility
 	./Composite/go-composite
 	./Decorator/go-decorator
 	./Iterator/go_iterator
