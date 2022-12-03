@@ -26,6 +26,7 @@ Go もしくは PHP で実装しています。
 11. [Composite](./Composite/)
 12. [Decorator](./Decorator/)
 13. [Visitor](./Visitor/)
+14. [ChainOfResponsibility](./ChainOfResponsibility/)
 
 # Category
 
@@ -55,7 +56,7 @@ Go もしくは PHP で実装しています。
 
 アルゴリズムやオブジェクトの振る舞いに関して、責任の分離を行う。
 
-- [Chain of Responsibility]()
+- [Chain of Responsibility](./ChainOfResponsibility/)
 - [Command]()
 - [Iterator](./Iterator/)
 - [Mediator]()
