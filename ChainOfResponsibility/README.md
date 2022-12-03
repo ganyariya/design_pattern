@@ -1,6 +1,9 @@
 
 # Chain Of Responsibility
 
+https://refactoring.guru/ja/design-patterns/chain-of-responsibility/php/example#example-1
+
+
 ## 概要
 
 処理の責任をたらい回しにするもの。
@@ -64,3 +67,6 @@ classDiagram
 
 PSR-15 の Middleware を簡易的にサンプルコードとして実装した。    
 難しい...
+
+- https://www.php-fig.org/psr/psr-15/
+- https://speakerdeck.com/n1215/psr-15-request-handlerkarali-jie-surumiddlewarefalseshi-zu-mi
