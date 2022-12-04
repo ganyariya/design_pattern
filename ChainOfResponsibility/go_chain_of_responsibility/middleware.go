@@ -13,7 +13,7 @@ type LoggerMiddleware struct {
 
 func (l *LoggerMiddleware) process(s ServerRequestInterface, r RequestHandlerInterface) ResponseInterface {
 	log.Printf("Request Body: %s", s.GetBody())
-	res := r.handle(s)
+	res := r.Handle(s)
 	log.Printf("Response Body: %s", res.GetBody())
 	return res
 }
@@ -26,7 +26,7 @@ func (m *MaintenanceMiddleware) process(s ServerRequestInterface, r RequestHandl
 	if m.active {
 		return NewResponse("Maintenance Now")
 	}
-	return r.handle(s)
+	return r.Handle(s)
 }
 
 type ResponseWrapMiddleware struct {
@@ -34,8 +34,12 @@ type ResponseWrapMiddleware struct {
 	suffix string
 }
 
+func NewResponseWrapMiddleware(prefix, suffix string) *ResponseWrapMiddleware {
+	return &ResponseWrapMiddleware{prefix: prefix, suffix: suffix}
+}
+
 func (rwm *ResponseWrapMiddleware) process(s ServerRequestInterface, r RequestHandlerInterface) ResponseInterface {
-	res := r.handle(s)
+	res := r.Handle(s)
 	body := res.GetBody()
 	return NewResponse(rwm.prefix + body + rwm.suffix)
 }
