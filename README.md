@@ -27,6 +27,7 @@ Go もしくは PHP で実装しています。
 12. [Decorator](./Decorator/)
 13. [Visitor](./Visitor/)
 14. [ChainOfResponsibility](./ChainOfResponsibility/)
+15. [Facade](./Facade/)
 
 # Category
 
@@ -48,7 +49,7 @@ Go もしくは PHP で実装しています。
 - [Bridge](./Bridge/)
 - [Composite](./Composite/)
 - [Decorator](./Decorator/)
-- [Facade]()
+- [Facade](./Facade/)
 - [Flyweight]()
 - [Proxy]()
 
