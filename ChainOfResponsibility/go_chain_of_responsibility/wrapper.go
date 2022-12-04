@@ -9,6 +9,6 @@ func NewWrapperHandler(middleware MiddlewareInterface, requestHandler RequestHan
 	return &WrapperHandler{middleware: middleware, requestHandler: requestHandler}
 }
 
-func (w *WrapperHandler) handle(s ServerRequestInterface) ResponseInterface {
+func (w *WrapperHandler) Handle(s ServerRequestInterface) ResponseInterface {
 	return w.middleware.process(s, w.requestHandler)
 }

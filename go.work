@@ -6,6 +6,7 @@ use (
 	./ChainOfResponsibility/go_chain_of_responsibility
 	./Composite/go-composite
 	./Decorator/go-decorator
+	./Facade/go_facade
 	./Iterator/go_iterator
 	./Prototype/go_prototype
 	./Singleton/go_singleton

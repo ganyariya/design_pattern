@@ -15,12 +15,12 @@ func TestMiddleware(t *testing.T) {
 
 	requestHandler := NewWrapperHandler(loggerMiddleware, NewWrapperHandler(maintenanceMiddleware, NewWrapperHandler(responseWrapMiddleware, doubleHandler)))
 	request := &ServerRequest{body: "Hello, World!"}
-	response := requestHandler.handle(request)
+	response := requestHandler.Handle(request)
 	assert.Equal(t, "Maintenance Now", response.GetBody())
 
 	maintenanceMiddleware = &MaintenanceMiddleware{active: false}
 	requestHandler = NewWrapperHandler(loggerMiddleware, NewWrapperHandler(maintenanceMiddleware, NewWrapperHandler(responseWrapMiddleware, doubleHandler)))
 	request = &ServerRequest{body: "Hello, World!"}
-	response = requestHandler.handle(request)
+	response = requestHandler.Handle(request)
 	assert.Equal(t, "{Hello, World!Hello, World!}", response.GetBody())
 }
