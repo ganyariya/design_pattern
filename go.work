@@ -13,4 +13,5 @@ use (
 	./Strategy/go_strategy
 	./TemplateMethod/go_template_method
 	./Visitor/go-visitor
+	./Mediator/go-mediator
 )
