@@ -14,4 +14,5 @@ use (
 	./TemplateMethod/go_template_method
 	./Visitor/go-visitor
 	./Mediator/go-mediator
+	./Memento/go-memento
 )
