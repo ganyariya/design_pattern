@@ -30,6 +30,7 @@ Go もしくは PHP で実装しています。
 15. [Facade](./Facade/)
 16. [Mediator](./Mediator/)
 17. [Observer](./Observer/)
+18. [Memento](./Memento/)
 
 # Category
 
@@ -63,7 +64,7 @@ Go もしくは PHP で実装しています。
 - [Command]()
 - [Iterator](./Iterator/)
 - [Mediator](./Mediator/)
-- [Memento]()
+- [Memento](./Memento/)
 - [Observer](./Observer/)
 - [State]()
 - [Strategy](./Strategy/)
