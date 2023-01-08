@@ -28,6 +28,8 @@ Go もしくは PHP で実装しています。
 13. [Visitor](./Visitor/)
 14. [ChainOfResponsibility](./ChainOfResponsibility/)
 15. [Facade](./Facade/)
+16. [Mediator](./Mediator/)
+17. [Observer](./Observer/)
 
 # Category
 
@@ -60,9 +62,9 @@ Go もしくは PHP で実装しています。
 - [Chain of Responsibility](./ChainOfResponsibility/)
 - [Command]()
 - [Iterator](./Iterator/)
-- [Mediator]()
+- [Mediator](./Mediator/)
 - [Memento]()
-- [Observer]()
+- [Observer](./Observer/)
 - [State]()
 - [Strategy](./Strategy/)
 - [TemplateMethod](./TemplateMethod/)
