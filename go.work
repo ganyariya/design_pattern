@@ -16,4 +16,5 @@ use (
 	./Mediator/go-mediator
 	./Memento/go-memento
 	./State/go-state
+	./FlyWeight/go-flyweight
 )
