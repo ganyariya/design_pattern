@@ -15,4 +15,5 @@ use (
 	./Visitor/go-visitor
 	./Mediator/go-mediator
 	./Memento/go-memento
+	./State/go-state
 )
