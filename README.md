@@ -33,6 +33,7 @@ Go もしくは PHP で実装しています。
 18. [Memento](./Memento/)
 19. [State](./State/)
 20. [FlyWeight](./FlyWeight/)
+21. [Proxy](./Proxy/)
 
 # Category
 
@@ -56,7 +57,7 @@ Go もしくは PHP で実装しています。
 - [Decorator](./Decorator/)
 - [Facade](./Facade/)
 - [FlyWeight](./FlyWeight/)
-- [Proxy]()
+- [Proxy](./Proxy/)
 
 ### 振る舞いパターン
 
