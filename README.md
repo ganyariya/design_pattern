@@ -32,6 +32,7 @@ Go もしくは PHP で実装しています。
 17. [Observer](./Observer/)
 18. [Memento](./Memento/)
 19. [State](./State/)
+20. [FlyWeight](./FlyWeight/)
 
 # Category
 
@@ -54,7 +55,7 @@ Go もしくは PHP で実装しています。
 - [Composite](./Composite/)
 - [Decorator](./Decorator/)
 - [Facade](./Facade/)
-- [Flyweight]()
+- [FlyWeight](./FlyWeight/)
 - [Proxy]()
 
 ### 振る舞いパターン
