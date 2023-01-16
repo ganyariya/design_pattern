@@ -18,4 +18,5 @@ use (
 	./State/go-state
 	./FlyWeight/go-flyweight
 	./Proxy/go-proxy
+	./Command/go-command
 )

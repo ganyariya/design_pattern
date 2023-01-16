@@ -34,6 +34,7 @@ Go もしくは PHP で実装しています。
 19. [State](./State/)
 20. [FlyWeight](./FlyWeight/)
 21. [Proxy](./Proxy/)
+22. [Command](./Command/)
 
 # Category
 
@@ -64,7 +65,7 @@ Go もしくは PHP で実装しています。
 アルゴリズムやオブジェクトの振る舞いに関して、責任の分離を行う。
 
 - [Chain of Responsibility](./ChainOfResponsibility/)
-- [Command]()
+- [Command](./Command/)
 - [Iterator](./Iterator/)
 - [Mediator](./Mediator/)
 - [Memento](./Memento/)
